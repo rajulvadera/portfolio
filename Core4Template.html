@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the style of the table -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+
+      body{
+        color: inherit;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      table, th, td{
+        border: 2px solid #01426a;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        color: #01426a
+      }
+
+      th  {
+        background-color: #ece81a
+      }
+      tr:hover {background-color: #ece81a}
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Table starts here-->
+    <div style ="overflow-x:auto;">
+      <table style="width:90%; margin:1em auto">
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Core4 Concept</th>
+          <th>Technical Definition</th>
+          <th>Real-Life Analogy</th>
+          <th>Python Example</th>
+          <th>Scratch Example</th>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Variables</b></td>
+          <td> Used to store information that can be changed through a program. You label the data to better understand the code.  </td>
+          <td>You ask someone what there age is a define the variable age with their value </td>
+          <td> name = "John" ( we define the variable name to John)  </td>
+          <td> When you create a new sprite </td>
+        </tr>
+
+        <!-- Fill in the row for Loops -->
+        <tr>
+          <td><b>Loops</b></td>
+          <td> A certain set of instruction that is repeated until you reach a certain condition.  </td>
+          <td>When you want to get to a certain place .... you take one step and you repeat taking steps ( like in a loop) until you reach your location  </td>
+          <td>for side in range(5) (repeats the code five times) (side is a variable): </td>
+          <td> under controls you click on the repeat tab and choose how many times you want it to repeat </td>
+        </tr>
+
+        <!-- Fill in the row for Conditionals -->
+        <tr>
+          <td><b>Conditionals</b></td>
+          <td> Set of code that performs different actions based on the boolean condition </td>
+          <td> If I am older than 17 I can watch a r-rated movie ( the boolean returns true) however if I am younger than 17 I cannot watch a r-rated </td>
+          <td> age = int(input("Age of the dog:
+            if age > 0
+              print "Is older than one"
+            elif age < 0
+              print "Younger than one")) </td>
+          <td> Under controls use the if and if then statements </td>
+        </tr>
+
+        <!-- Fill in the row for Functions -->
+        <tr>
+          <td><b>Functions</b></td>
+          <td> Is a set of code that returns a value  </td>
+          <td> 6 x 2 = 12   </td>
+          <td> 6 % 3 = 0 </td>
+          <td> Under operations you have functions where you can plug in desired values </td>
+        </tr>
+
+      </table>
+    </div>
+
+  </body>
+</html>
